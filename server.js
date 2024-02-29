@@ -15,8 +15,8 @@ console.log(process.env.EMAIL_PASS);
 const contactEmail = createTransport({
   service: 'gmail',
   auth: {
-    user: "ayushkumar20110186@gmail.com",
-    pass: "msol ucjt xaxo bxhb"
+    user: "xxxxxxxxxxxx@gmail.com",
+    pass: "xxxxxxxxxxxxxxx"
   },
 });
 
@@ -35,7 +35,7 @@ router.post("/contact", (req, res) => {
   const phone = req.body.phone;
   const mail = {
     from: name,
-    to: "ayushkumar20110186@gmail.com",
+    to: "xxxxxxxxxxxx@gmail.com",
     subject: "Contact Form Submission - Portfolio",
     html: `<p>Name: ${name}</p>
            <p>Email: ${email}</p>
