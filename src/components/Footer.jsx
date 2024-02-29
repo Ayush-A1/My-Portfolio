@@ -2,8 +2,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { MailchimpForm } from "./MailchimpForm";
 import logo from '../assets/img/My_logo.png';
 import navIcon1 from "../assets/img/nav-icon1.svg";
-import navIcon2 from "../assets/img/nav-icon2.svg";
-import navIcon3 from "../assets/img/nav-icon3.svg";
+
+import navIcon2 from '../assets/img/Github icon.svg';
+import navIcon3 from '../assets/img/clip-icon.svg';
 
 export const Footer = () => {
   return (
@@ -21,10 +22,10 @@ export const Footer = () => {
                </a>
 
                 <a href="https://github.com/Ayush-A1" target="_blank" rel="noopener noreferrer">
-                  <img src="src\assets\img\Github icon.svg" alt="Github" />
+                  <img src={navIcon2} alt="Github" />
                   </a>
                 <a href="https://docs.google.com/document/d/1KSsHBXMxI2uSuBR5i4IhnWPPyWM91sBRMIHypkizLEI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
-                  <img src="src\assets\img\icons8-resume-100.png" alt="Resume" /></a>
+                  <img src={navIcon3} alt="Resume" /></a>
             </div>
             <p>Copyright 2022. All Rights Reserved Ayush</p>
           </Col>
