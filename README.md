@@ -1,6 +1,10 @@
 # Personal Portfolio Website
 
 This is a fully responsive personal portfolio website built using React.js and Bootstrap. The project is set up with Vite to create the React app, and it includes a server for handling communication and receiving messages when someone fills out the contact form.
+## Demo
+
+Check out the live demo of the project [here](https://app.netlify.com/sites/ayush-portfolioo/overview).
+
 
 ## Table of Contents
 
