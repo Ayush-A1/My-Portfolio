@@ -29,7 +29,12 @@ The contact form functionality is implemented with a server to handle submission
 2. Navigate to the project directory.
 3. Run `npm install` to install the dependencies.
 4. Create a `.env` file in the root directory and fill in the required data for the server to run. Example:      
-    
+    REACT_APP_MAILCHIMP_URL=" "
+    REACT_APP_MAILCHIMP_U=" "
+    REACT_APP_MAILCHIMP_ID=" "
+    EMAIL_USER=" "
+    EMAIL_PASS=" "
+
 5. Run `npm start` to start the development server.
 
 ## Usage
